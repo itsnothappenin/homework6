@@ -19,7 +19,7 @@ export async function welcome() {
     ⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀                                               
     `));
 
-    const rainbowTitle = chalkAnimation.rainbow("Welcome to Gusein's super puper CoinGecko cli app");
+    const rainbowTitle = chalkAnimation.rainbow("Welcome to CoinGecko cli app");
     await sleep();
     rainbowTitle.stop();    
 }
